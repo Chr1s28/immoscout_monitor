@@ -1,4 +1,6 @@
 roomNumber = "4.5"
+
+# URL to get locationIDs: https://rest-api.immoscout24.ch/v4/en/locations?term=Z%C3%BCrich
 locationId = "4147"
 radius = "10"
 immoscoutLink = f"https://rest-api.immoscout24.ch/v4/en/properties?l={locationId}&nrf={roomNumber}&pt=3t&r={radius}&s=1&t=1&inp=1"
